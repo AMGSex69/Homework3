@@ -7,7 +7,7 @@ int z2 = Point("z", "B");
 
 int Point(string cordinateName, string pointName)
 {
-	Console.Write($"Введите координату {cordinateName} точки {pointName}: ");
+	Console.Write("Введите координату {cordinateName} точки {pointName}: ");
 	return Convert.ToInt32(Console.ReadLine());
 }
 
